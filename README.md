@@ -1,5 +1,5 @@
 <h1 align="center">zeVillage</h1>
-<p align="center"><strong>A modular AI agent toolkit — 52 skills, 8 agent profiles.</strong></p>
+<p align="center"><strong>A modular AI agent toolkit — 80 skills, 8 agent profiles.</strong></p>
 <p align="center">
   Give any AI coding agent deep expertise in frontend, animation, design systems, marketing, DevOps, document generation, and more. Platform-agnostic. Vendor-neutral. Drop in and go.
 </p>
@@ -19,12 +19,12 @@
 
 AI agents are only as good as the instructions they receive. Most start from zero on every task — no memory of best practices, no awareness of your design system, no knowledge of which testing patterns actually work.
 
-zeVillage fixes that. It's a library of **52 composable skills** and **8 agent profiles** that plug into any AI coding tool. Each skill is a self-contained folder of expert-level instructions that the agent loads on demand. Each agent profile is a system prompt that gives the agent a specific role and set of priorities.
+zeVillage fixes that. It's a library of **80 composable skills** and **8 agent profiles** that plug into any AI coding tool. Each skill is a self-contained folder of expert-level instructions that the agent loads on demand. Each agent profile is a system prompt that gives the agent a specific role and set of priorities.
 
 **What makes it different:**
 
 - **Vendor-neutral** — works with Cursor, VS Code, OpenCode, or any agent that supports the [Agent Skills](https://agentskills.io) standard
-- **Composable** — install all 52 skills or pick only what you need
+- **Composable** — install all 80 skills or pick only what you need
 - **Production-quality** — every skill is linted, formatted, and validated
 - **Simple setup** — copy skills folder to your platform
 
@@ -38,9 +38,9 @@ That's it. Your AI agent now has access to every installed skill.
 
 ---
 
-## Skills (52)
+## Skills (80)
 
-### Creative & Design (8)
+### Creative & Design (13)
 
 | Skill                                             | What it teaches the agent                                      |
 | ------------------------------------------------- | -------------------------------------------------------------- |
@@ -49,11 +49,15 @@ That's it. Your AI agent now has access to every installed skill.
 | [data-visualization](./skills/data-visualization) | Charts, dashboards, and interactive data displays              |
 | [frontend-design](./skills/frontend-design)       | Production-grade frontend interfaces                           |
 | [slack-gif-creator](./skills/slack-gif-creator)   | Animated GIFs for Slack                                        |
-| [theme-factory](./skills/theme-factory)           | Theming toolkit for artifacts                                  |
 | [image-assets](./skills/image-assets)             | Curated image discovery, optimization, and responsive delivery |
 | [unsplash-images](./skills/unsplash-images)       | Unsplash image selection and integration                       |
+| [premium-web-design](./skills/premium-web-design) | Awwwards-quality premium websites                              |
+| [interactive-portfolio](./skills/interactive-portfolio) | Portfolio that converts visitors into opportunities        |
+| [nothing-design](./skills/nothing-design)         | Nothing brand design system                                    |
+| [academic-researcher-writing](./skills/academic-researcher-writing) | Academic research paper writing                        |
+| [imagegen](./skills/imagegen)                     | AI image generation via OpenAI API                             |
 
-### Animation & 3D (7)
+### Animation & 3D (10)
 
 | Skill                                           | What it teaches the agent                                      |
 | ----------------------------------------------- | -------------------------------------------------------------- |
@@ -64,6 +68,9 @@ That's it. Your AI agent now has access to every installed skill.
 | [matterjs](./skills/matterjs)                   | Matter.js 2D physics simulations                               |
 | [vantajs](./skills/vantajs)                     | Vanta.js animated 3D backgrounds                               |
 | [cobejs-globe](./skills/cobejs-globe)           | cobe.js interactive WebGL globe visualizations                 |
+| [3d-web-experience](./skills/3d-web-experience)  | Three.js, React Three Fiber, WebGL experiences                |
+| [scroll-experience](./skills/scroll-experience)  | Scroll-driven parallax and immersive narratives              |
+| [game-development](./skills/game-development)   | Game dev orchestrator for platform routing                    |
 
 ### CSS Effects (3)
 
@@ -73,19 +80,24 @@ That's it. Your AI agent now has access to every installed skill.
 | [css-border-gradient](./skills/css-border-gradient) | CSS gradient borders and outlines |
 | [css-alpha-masking](./skills/css-alpha-masking)     | CSS alpha masking and compositing |
 
-### Design Systems & UI (8)
+### Design Systems & UI (14)
 
 | Skill                                                         | What it teaches the agent                              |
 | ------------------------------------------------------------- | ------------------------------------------------------ |
 | [design-system-patterns](./skills/design-system-patterns)     | Component architecture, tokens, and documentation      |
 | [tailwind-design-system](./skills/tailwind-design-system)     | Tailwind CSS design system with custom themes          |
+| [tailwind-patterns](./skills/tailwind-patterns)               | Tailwind CSS v4 principles and patterns                |
 | [responsive-design](./skills/responsive-design)               | Responsive layouts, breakpoints, and fluid typography  |
 | [interaction-design](./skills/interaction-design)             | Micro-interactions, state transitions, and feedback    |
 | [web-interface-guidelines](./skills/web-interface-guidelines) | Comprehensive web interface design principles          |
+| [web-design-guidelines](./skills/web-design-guidelines)       | Web design principles and best practices               |
 | [brand-guidelines](./skills/brand-guidelines)                 | Apply brand colors and typography                      |
 | [ui-designer](./skills/ui-designer)                           | Visual design systems, spacing, typography, and polish |
-| [ui-ux-pro-max](./skills/ui-ux-pro-max)                       | UI/UX design intelligence with searchable database    |
+| [ui-ux-pro-max](./skills/ui-ux-pro-max)                       | UI/UX design intelligence with searchable database     |
+| [ui-design-system](./skills/ui-design-system)                 | Design system toolkit for tokens and components        |
 | [ux-designer](./skills/ux-designer)                           | UX strategy, flows, IA, usability, and audits          |
+| [accessibility-auditor](./skills/accessibility-auditor)       | WCAG compliance and accessibility auditing             |
+| [c4-architecture](./skills/c4-architecture)               | C4 model architecture diagrams                        |
 
 ### Page Design (3)
 
@@ -95,21 +107,21 @@ That's it. Your AI agent now has access to every installed skill.
 | [pricing-page-design](./skills/pricing-page-design) | Pricing tier layouts and comparison tables          |
 | [features-page](./skills/features-page)             | Feature showcase pages with bento grids and reveals |
 
-### Marketing & Content (3)
+### Marketing & Content (4)
 
 | Skill                                                 | What it teaches the agent                                   |
 | ----------------------------------------------------- | ----------------------------------------------------------- |
 | [copywriting](./skills/copywriting)                   | Conversion copywriting, headline formulas, and CTA patterns |
 | [marketing-psychology](./skills/marketing-psychology) | 50+ mental models for persuasion and pricing                |
 | [analytics-tracking](./skills/analytics-tracking)     | GA4, GTM, event tracking, and UTM strategy                  |
+| [executing-marketing-campaigns](./skills/executing-marketing-campaigns) | Campaign planning and optimization                    |
 
-### Development & Code Quality (11)
+### Development & Code Quality (14)
 
 | Skill                                                   | What it teaches the agent                           |
 | ------------------------------------------------------- | --------------------------------------------------- |
 | [api-design](./skills/api-design)                       | REST API conventions, OpenAPI specs, error handling |
 | [code-review](./skills/code-review)                     | Structured multi-pass code reviews                  |
-| [git-workflow](./skills/git-workflow)                   | Commits, branches, PRs, changelogs                  |
 | [testing](./skills/testing)                             | Unit, component, E2E, visual, a11y testing          |
 | [refactoring](./skills/refactoring)                     | Code smell detection and refactoring patterns       |
 | [security-audit](./skills/security-audit)               | Vulnerability scanning, OWASP Top 10, auth review   |
@@ -118,12 +130,16 @@ That's it. Your AI agent now has access to every installed skill.
 | [mcp-builder](./skills/mcp-builder)                     | MCP server creation                                 |
 | [webapp-testing](./skills/webapp-testing)               | Browser testing with Playwright                     |
 | [web-artifacts-builder](./skills/web-artifacts-builder) | Multi-component HTML artifacts                      |
+| [astro](./skills/astro)                                 | Astro framework for static and SSR sites            |
+| [playwright-skill](./skills/playwright-skill)           | Browser automation with Playwright                   |
+| [karpathy-guidelines](./skills/karpathy-guidelines)     | Behavioral guidelines to reduce coding mistakes     |
 
-### Planning & Workflow (1)
+### Planning & Workflow (2)
 
 | Skill                                               | What it teaches the agent                                       |
 | --------------------------------------------------- | --------------------------------------------------------------- |
 | [persistent-planning](./skills/persistent-planning) | Filesystem-based planning and progress tracking across sessions |
+| [using-superpowers](./skills/using-superpowers)     | Finding and using skills in the agent                          |
 
 ### Enterprise & Communication (3)
 
@@ -176,7 +192,7 @@ For detailed installation instructions, see [INSTALL.md](./INSTALL.md).
 
 ```
 zeVillage/
-├── skills/                 # 52 skill directories
+├── skills/                 # 80 skill directories
 │   ├── gsap-animation/
 │   │   ├── SKILL.md        # Instructions + YAML frontmatter
 │   │   └── LICENSE.txt     # License
